@@ -431,6 +431,7 @@ header .pre-header {
     width: 100%;
     position: relative;
     background-color: var(--bg-color);
+    background-image: url(/Assets/images/banner_background.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -526,14 +527,16 @@ header .pre-header {
     display: flex;
     align-items: center;
     height: 100%;
+    gap: 25px;
     max-width: 1170px;
+    flex-direction: row-reverse;
     margin: 0 auto;
     padding: 0 20px;
 }
 
 .hero-content {
     width: 50%;
-    padding-right: 40px;
+    padding-left: 40px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
