@@ -592,10 +592,9 @@ header .pre-header {
 }
 
 .hero-image img {
-    width: 88%;
+    width: 100%;
     background-image: url(/Assets/images/hero-shape.png);
     height: auto;
-    margin-bottom: -22%;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
