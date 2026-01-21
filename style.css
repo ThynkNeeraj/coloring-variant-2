@@ -438,10 +438,9 @@ header .pre-header {
 /* Hero decorative elements */
 .hero-section .top_left_corner {
     position: absolute;
-    top: -50px;
-    left: -24px;
-    transform: rotate(8deg);
-    height: 320px;
+    top: -100px;
+    left: -10px;
+    height: 690px;
 }
 
 .hero-section .bottom_right_corner {
