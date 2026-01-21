@@ -1,0 +1,124 @@
+.menu-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
+
+.menu-toggle i {
+  font-size: 24px;
+  color: #000;
+}
+
+/* ================= MOBILE HEADER ================= */
+@media (max-width: 767px) {
+    header .pre-header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .main-row {
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        align-items: center;
+        padding: 12px 15px;
+        gap: 10px;
+    }
+
+    .main-nav {
+        grid-column: 1;
+  }
+
+  .logo {
+    grid-column: 2;
+    text-align: center;
+  }
+
+  .search_section {
+    grid-column: 1 / -1;
+    margin-top: 10px;
+  }
+
+  /* Show hamburger */
+  .menu-toggle {
+    display: block;
+  }
+
+  /* Menu */
+  .main-nav ul {
+    position: fixed;
+    top: 120px;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    display: none;
+    flex-direction: column;
+    padding: 15px 0;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    z-index: 999;
+  }
+
+  .main-nav.active ul {
+    display: flex;
+  }
+
+  .main-nav ul li {
+    padding: 14px 20px;
+  }
+
+  .main-nav ul li a {
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+  }
+
+  /* Submenu */
+  .has-submenu > a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .sub-menu {
+    display: none;
+    padding-left: 15px;
+  }
+
+  .has-submenu.active .sub-menu {
+    display: block;
+  }
+}
+
+
+
+
+/* Tablet Portrait - 768px to 1023px */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* General tablet portrait styles */
+  
+  /* You can add specific overrides within this range if needed */
+}
+
+/* You might not need all these sub-ranges, but if you do: */
+@media (min-width: 768px) and (max-width: 819px) {
+  /* Specific styles for 768-819px */
+}
+
+@media (min-width: 820px) and (max-width: 1023px) {
+  /* Specific styles for 820-1023px */
+}
+
+/* Tablet Landscape - 1024px to 1180px */
+@media (min-width: 1024px) and (max-width: 1180px) {
+  /* Tablet landscape styles */
+}
+
+/* Large Desktop (1400px+) */
+@media (min-width: 1400px) {
+    /* Optional: enhance for very large screens */
+    .container {
+        max-width: 1400px;
+    }
+}
