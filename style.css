@@ -509,8 +509,8 @@ header .pre-header {
 
 .hero-section .spring {
     height: 80px;
-    top: 10%;
-    left: 2%;
+    top: 16%;
+    left: 0%;
     position: absolute;
     animation: spring 3s infinite linear;
 }
@@ -546,6 +546,7 @@ header .pre-header {
 
 .hero-subheading {
     font-size: 1.2rem;
+    margin-bottom: -25px;
     color: var(--color-Yellow);
     font-family: var(--font-heading);
     font-weight: 500;
@@ -597,18 +598,19 @@ header .pre-header {
     width: 50%;
     display: flex;
     border-radius: 100px;
+    transform: rotate(10deg);
     justify-content: center;
     align-items: center;
+    background-image: url(/Assets/images/hero-shape.png);
+    background-size: 520px auto;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .hero-image img {
     width: 100%;
-    background-image: url(/Assets/images/hero-shape.png);
     height: auto;
-    transform: rotate(10deg);
-    background-size: 520px auto;
-    background-repeat: no-repeat;
-    background-position: center;
+    transform: rotate(-10deg);
     border-radius: 8px;
 }
 
