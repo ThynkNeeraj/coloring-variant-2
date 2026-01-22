@@ -231,7 +231,7 @@
 }
 
 /* ===== HEADER STYLES ===== */
-.main-row::after {
+/* .main-row::after {
     content: "";
     position: absolute;
     bottom: -25px;
@@ -243,7 +243,7 @@
     background: url(/Assets/images/cloud_border.svg) repeat-x;
     background-size: 150px 25px;
     pointer-events: none;
-}
+} */
 
 /* Pre-header */
 header .pre-header {
