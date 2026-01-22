@@ -231,6 +231,20 @@
 }
 
 /* ===== HEADER STYLES ===== */
+.main-row::after {
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    transform: rotate(180deg);
+    z-index: 100;
+    width: 100%;
+    height: 50px;
+    background: url(/Assets/images/cloud_border.svg) repeat-x;
+    background-size: 150px 25px;
+    pointer-events: none;
+}
+
 /* Pre-header */
 header .pre-header {
     background-color: var(--bg-color);

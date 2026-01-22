@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 50" preserveAspectRatio="none">
+  <path fill="#ffffff" d="
+    M0 30
+    Q25 5 50 30
+    T100 30
+    T150 30
+    T200 30
+    T250 30
+    T300 30
+    V50 H0 Z" />
+</svg>
