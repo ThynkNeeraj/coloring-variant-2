@@ -427,7 +427,7 @@ header .pre-header {
 
 /* ===== HERO SECTION ===== */
 .hero-section {
-    height: 760px;
+    height: 660px;
     width: 100%;
     position: relative;
     background-color: var(--bg-color);
@@ -531,7 +531,7 @@ header .pre-header {
     max-width: 1170px;
     flex-direction: row-reverse;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 50px 20px 0px;
 }
 
 .hero-content {
