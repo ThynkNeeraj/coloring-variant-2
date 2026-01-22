@@ -605,6 +605,7 @@ header .pre-header {
     width: 100%;
     background-image: url(/Assets/images/hero-shape.png);
     height: auto;
+    transform: rotate(10deg);
     background-size: 520px auto;
     background-repeat: no-repeat;
     background-position: center;
